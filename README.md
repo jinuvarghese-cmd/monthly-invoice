@@ -57,7 +57,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 6. **Run migrations**
    ```bash
-   php artisan migrate db:seed
+   php artisan migrate --seed
    ```
    
 7. **Run queue worker (for invoice generation & email jobs)**
