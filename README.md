@@ -79,7 +79,7 @@ MAIL_FROM_NAME="${APP_NAME}"
    php artisan serve
    ```
 
-10 Test the command (optional - if you need to test functonality right now)
+10 **Test the command (optional - if you need to test functonality right now)**
     ```bash
     php artisan invoices:send          
     ```
