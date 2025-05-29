@@ -60,7 +60,7 @@ MAIL_FROM_NAME="${APP_NAME}"
    php artisan migrate db:seed
    ```
    
-7. **Run queue worker (for invoice generation & email jobs) and command**
+7. **Run queue worker (for invoice generation & email jobs)**
    ```bash
    php artisan queue:work --memory=512 --queue=invoices --tries=3
    php artisan queue:work --memory=512 --queue=emails --tries=3
